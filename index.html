@@ -1,20 +1,80 @@
-<head>
-  <link href="http://vjs.zencdn.net/5.11.6/video-js.css" rel="stylesheet">
+<html>
 
-  <!-- If you'd like to support IE8 -->
-  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="icon" href="dropboxmer32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+  <title>MER各種安裝檔</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+  .btn {
+      margin: 2px;
+      padding: 2px;
+  }
+  </style>
 </head>
 
 <body>
-  <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
-  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-    <source src="MY_VIDEO.mp4" type='video/mp4'>
-    <source src="MY_VIDEO.webm" type='video/webm'>
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-  </video>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <i class="navbar-brand">MER各種安裝檔</i>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h2><p class="bg-success">Android</p></h2>
+    <a href='android/dr/dev/DrApp.apk' class="btn btn-primary"> DrApp 測試</a>
 
-  <script src="http://vjs.zencdn.net/5.11.6/video.js"></script>
+    <a href='android/dr/dev/DrApp342Test.apk' class="btn btn-primary"> DrApp 3.4.200 測試</a>
+
+    <a href='android/dr/prod/DrApp.apk' class="btn btn-primary"> DrApp 正式</a>
+    <HR></HR>
+
+    <a href='android/emt/dev/ionicEMT30900dev.apk' class="btn btn-primary">ionicEMT 3.0.900 測試</a>
+
+    <a href='android/emt/dev/ionicEMT30801dev.apk' class="btn btn-primary">ionicEMT 3.0.801 測試</a>
+
+    <a href='android/emt/prod/ionicEMT30801prod.apk' class="btn btn-primary">ionicEMT 3.0.801 正式</a>
+
+    <HR></HR>
+    <a href='android/mon/dev/MonitorApp112.apk' class="btn btn-primary">MonitorApp 測試</a>
+    <a class="btn btn-primary" disabled>MonitorApp 正式</a>
+
+    <br><HR></HR><br>
+
+
+    <h2><p class="bg-info">iPhone</p></h2>
+    <a href="itms-services://?action=download-manifest&amp;url=ios/dr/dev/DrApp.plist" class="btn btn-primary">DrApp 測試</a>
+
+    <a href="itms-services://?action=download-manifest&amp;url=ios/dr/dev/DrApp342Test.plist" class="btn btn-primary">DrApp 3.4.200 測試</a>
+
+    <a href="itms-services://?action=download-manifest&amp;url=ios/dr/prod/DrApp.plist" class="btn btn-primary">DrApp 正式</a>
+    <HR></HR>
+
+    <a href="itms-services://?action=download-manifest&amp;url=ios/emt/dev/ionicEMT30900dev.plist" class="btn btn-primary">ionicEMT 3.0.900 測試</a>
+
+    <a href="itms-services://?action=download-manifest&amp;url=ios/emt/dev/ionicEMT30801dev.plist" class="btn btn-primary">ionicEMT 3.0.801 測試</a>
+
+    <a href="itms-services://?action=download-manifest&amp;url=ios/emt/dev/ionicEMT30801prod.plist" class="btn btn-primary">ionicEMT 3.0.801 正式</a>
+    <HR></HR>
+    <a href="itms-services://?action=download-manifest&amp;url=ios/mon/dev/MonitorApp112.plist" class="btn btn-primary">MonitorApp 測試</a>
+    <a class="btn btn-primary" disabled>MonitorApp 正式</a>
+
+    <HR></HR>
+
+
+
+    <a href="itms-services://?action=download-manifest&amp;url=easylong/Easylong.plist" class="btn btn-primary">Easylong</a>
+    <HR></HR>
+        <h2>CA憑證</h2>
+    <a href="myCA.cer" class="btn btn-primary">60.250.126.139 CA憑證</a>
+  </div>
 </body>
+
+</html>
