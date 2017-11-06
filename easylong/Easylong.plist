@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://dl.dropboxusercontent.com/u/8753544/viewlead/easylong/Easylong.ipa</string>
+					<string>https://viewlead-it.github.io/easylong/Easylong.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://dl.dropboxusercontent.com/u/8753544/viewlead/easylong/Easylong.png</string>
+					<string>https://viewlead-it.github.io/easylong/Easylong.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://dl.dropboxusercontent.com/u/8753544/viewlead/easylong/Easylong.png</string>
+					<string>https://viewlead-it.github.io/easylong/Easylong.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
